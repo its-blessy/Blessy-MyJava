@@ -1,0 +1,66 @@
+import java.util.Scanner;
+public class MyJava{
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        float inputValue = scanner.nextFloat();
+        System.out.println(Math.round(inputValue));
+    }
+}
+
+OUTPUT:
+16.6
+17
+
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+         String input = scanner.next();
+        
+            long decimalValue = Long.parseLong(input.substring(2), 16);
+                System.out.println(decimalValue);
+    }
+}
+
+OUTPUT:
+0x1A
+26
+
+import java.util.Scanner;
+public class MyJava {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int input = scanner.nextInt();
+        
+        System.out.println(Integer.toHexString(input));
+    }
+}
+
+OUTPUT:
+26
+1a
+
+public class MyJava {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        String input = sc.next();
+        System.out.println(input.replaceAll("0*$", "").replaceAll("\\.$", ""));
+    }
+}
+
+OUTPUT:
+1234.000
+1234
+
+public class ConcatenationExample {
+    public static void main(String[] args) {
+        String part1 = "Hello";
+        String part2 = "World";
+        String result = part1 + " " + part2; // Concatenation
+        System.out.println(result); // Output: Hello World
+    }
+}
+
+OUTPUT:
+Hello World
+
