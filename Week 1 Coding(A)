@@ -1,0 +1,78 @@
+import java.util.Scanner;
+public class MyJava {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int firstNumber = scanner.nextInt();
+        int secondNumber = scanner.nextInt();
+        System.out.printf("%05d \n %5d", firstNumber, secondNumber);
+    }
+}
+
+OUTPUT:
+30 11
+00030 
+    11
+
+import java.util.*;
+public class MyJava {
+    public static void main(String[] args) {
+        Scanner sc= new Scanner(System.in);
+        char character= sc.next().charAt(0);
+        int ASCIIvalue= character;
+        System.out.println(character+":"+ASCIIvalue);
+    }
+}
+
+
+OUTPUT:
+B
+B:66
+
+import java.util.*;
+public class MyJava{
+    public static void main(String[] args) {
+        Scanner sc= new Scanner(System.in);
+        int Ascii= sc.nextInt();
+        char character= (char)Ascii;
+        System.out.println(Ascii+":"+character);
+    }
+}
+
+OUTPUT:
+66
+66:B
+
+import java.util.Scanner;
+public class MyJava {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        float inputValue = scanner.nextFloat();
+        System.out.printf("%20.4f\n", inputValue);
+    }
+}
+
+OUTPUT:
+17
+             17.0000
+
+import java.util.Scanner;
+public class MyJava {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        float floatValue = scanner.nextFloat();
+        int precision = scanner.nextInt();
+        System.out.printf("%." + precision + "f", floatValue);
+    }
+}
+
+OUTPUT:
+1234.56789
+2
+1234.57
+
+
+
+
+
+
+s
