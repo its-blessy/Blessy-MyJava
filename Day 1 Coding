@@ -1,0 +1,69 @@
+public class MyJava{
+public static void main(String[] args) {
+ System.out.println("Let's learn 'JAVA' together with Selvi");}
+}
+
+OUTPUT:
+Let's learn 'JAVA' together with Selvi
+
+public class MyJava {
+
+        public static void main(String[] args)
+        {
+            System.out.println("If you want to shine like a \"Sun\",first burn like a \"Sun\".");
+        }
+    }
+
+OUTPUT:
+If you want to shine like a "Sun",first burn like a "Sun".
+
+public class MyJava {
+
+    
+        public static void main(String[] args)
+        {
+            System.out.println("\\n");
+        }
+    }
+
+OUTPUT:
+\n
+
+public class MyJava {
+
+
+        public static void main(String[] args)
+        {
+            System.out.println("%%");
+        }
+    }
+
+
+OUTPUT:
+%%
+
+public class MyJava {
+    
+        public static void main(String[] args) {
+            int num1=20;
+            int num2=10;
+            System.out.println(num1+" "+num2);
+        }
+    }
+
+OUTPUT:
+20 10
+
+import java.util.*;
+public class MyJava {
+    public static void main(String[] args) {
+            Scanner sc= new Scanner(System.in);
+            char character= sc.next().charAt(0);
+            System.out.println(character);
+        }
+    }
+
+OUTPUT:
+java
+j
+
